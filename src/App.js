@@ -1,11 +1,11 @@
-import Clicked from "./components/Clicked"
+import User from "./components/User"
 
-const App = () => {
-
+function App() {
   return (
-    <div style={{margin: '9em'}}>
-     <Clicked/>
+    <div>
+      <User/>
     </div>
   )
 }
+
 export default App
